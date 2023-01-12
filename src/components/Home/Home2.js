@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
@@ -10,6 +10,7 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
+ 
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -24,7 +25,10 @@ function Home2() {
               <br />
               <br />I am fluent in classics like {"  "}
               <i>
-                <b className="purple">HTML5,CSS3,JAVASCRIPT,TYPESCRIPT, REACT JS,REDUX,GRAPHQL,EXPRESS JS AND NODE JS </b>
+                <b className="purple">
+                  HTML5,CSS3,JAVASCRIPT,TYPESCRIPT, REACT
+                  JS,REDUX,GRAPHQL,EXPRESS JS AND NODE JS{" "}
+                </b>
               </i>
               <br />
               <br />
@@ -67,7 +71,7 @@ function Home2() {
             <ul className="home-about-social-links">
               {/* <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href=""
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -75,6 +79,16 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li> */}
+              <li className="social-icons">
+                <a
+                  href={"https://github.com/Harshith-webWorld"}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiFillGithub />
+                </a>
+              </li>
               <li className="social-icons">
                 {/* <a
                   href="https://twitter.com/Soumyajit4419"
